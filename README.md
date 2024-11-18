@@ -11,7 +11,7 @@ This project is a part of the **Applied Computer Vision for AI** (AAI-521) cours
 
 ## **Introduction**
 
-The AI Powered Image Wizard is an AI system designed to restore and enhance images using cutting-edge generative AI models. This application leverages pretrained models from Hugging Face to perform advanced image enhancement tasks, including denoising, super-resolution, colorization, and inpainting. The goal is to provide users with an intuitive tool for reviving old, damaged, or low-quality images effortlessly.
+The AI-Powered Image Wizard is an AI system designed to restore and enhance images using cutting-edge generative AI models. This application leverages pretrained models from Hugging Face to perform advanced image enhancement tasks, including denoising, super-resolution, colorization, and inpainting. The goal is to provide users with an intuitive tool for reviving old, damaged, or low-quality images effortlessly.
 
 
 ## **Objective**
