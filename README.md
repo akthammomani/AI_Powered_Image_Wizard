@@ -1,4 +1,4 @@
-# AI Powered Image Wizard
+# AI-Powered Image Wizard
 
 This project is a part of the **Applied Computer Vision for AI** (AAI-521) course in [the Applied Artificial Intelligence Master Program](https://onlinedegrees.sandiego.edu/masters-applied-artificial-intelligence/) at [the University of San Diego (USD)](https://www.sandiego.edu/). 
 
