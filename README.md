@@ -2,7 +2,8 @@
 
 ![ai_powered_image_wizard](https://github.com/user-attachments/assets/f3ec650e-9990-4df0-ac6e-8216200ae5d6)
 
-<img src="https://github.com/user-attachments/assets/f3ec650e-9990-4df0-ac6e-8216200ae5d6" alt="AI Powered Image Wizard" height="300">
+<img src="https://github.com/user-attachments/assets/f3ec650e-9990-4df0-ac6e-8216200ae5d6" alt="AI Powered Image Wizard" height="300" style="width:auto;">
+
 
 
 This project is a part of the **Applied Computer Vision for AI** (AAI-521) course in [the Applied Artificial Intelligence Master Program](https://onlinedegrees.sandiego.edu/masters-applied-artificial-intelligence/) at [the University of San Diego (USD)](https://www.sandiego.edu/). 
