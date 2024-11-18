@@ -1,15 +1,15 @@
-# AI-Powered Image Wizard
+# **AI-Powered Image Wizard**
 
 This project is a part of the **Applied Computer Vision for AI** (AAI-521) course in [the Applied Artificial Intelligence Master Program](https://onlinedegrees.sandiego.edu/masters-applied-artificial-intelligence/) at [the University of San Diego (USD)](https://www.sandiego.edu/). 
 
 -- **Project Status: Ongoing**
 
-## Introduction
+## **Introduction**
 
 The AI Powered Image Wizard is an AI system designed to restore and enhance images using cutting-edge generative AI models. This application leverages pretrained models from Hugging Face to perform advanced image enhancement tasks, including denoising, super-resolution, colorization, and inpainting. The goal is to provide users with an intuitive tool for reviving old, damaged, or low-quality images effortlessly.
 
 
-## Objective
+## **Objective**
 
 The objective of this project is to develop an AI-based web application that:
 
@@ -19,7 +19,7 @@ The objective of this project is to develop an AI-based web application that:
 * Provides seamless functionality for users to process and improve their images in one platform.
 
 
-## Dataset
+## **Dataset**
 
 The datasets used in this project are carefully selected to cover diverse image enhancement tasks:
 
@@ -28,7 +28,7 @@ The datasets used in this project are carefully selected to cover diverse image 
 * **Colorization:** [COCO](https://cocodataset.org/#home) and [ImageNet](https://www.kaggle.com/c/imagenet-object-localization-challenge) datasets, with grayscale versions created for input.
 * **Inpainting:** [Paris Street View](http://www.iapr-tc11.org/mediawiki/index.php/The_Street_View_Text_Dataset) and [CelebA](https://www.kaggle.com/datasets/jessicali9530/celeba-dataset) datasets, where masks simulate missing or damaged areas.
 
-## Methods Used
+## **Methods Used**
 
 The project incorporates the following methods:
 
@@ -37,7 +37,7 @@ The project incorporates the following methods:
 * **Image Colorization:** Automatically adding colors to grayscale images using colorization transformers and DeOldify.
 * **Image Inpainting:** Filling in missing or damaged parts with LaMa and Stable Diffusion Inpainting models.
 
-## Technologies
+## **Technologies**
 
 The application is built with the following technologies:
 
@@ -47,16 +47,16 @@ The application is built with the following technologies:
 * **Visualization:** Matplotlib and Seaborn for visualizing results.
  
 
-## Future Improvements
+## **Future Improvements**
 
 
-## Contributing
+## **Contributing**
 Contributions are welcome for future improvements after the initial development phase.
 
-## License
+## **License**
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
 
-## Acknowledgements
+## **Acknowledgement**
 A special thanks to **Professor Roozbeh Sadeghian, Ph.D.**, for his invaluable guidance and support throughout this class/project.
 
 
