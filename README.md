@@ -2,7 +2,7 @@
 
 ![ai_powered_image_wizard](https://github.com/user-attachments/assets/f3ec650e-9990-4df0-ac6e-8216200ae5d6)
 
-<img src="https://github.com/user-attachments/assets/f3ec650e-9990-4df0-ac6e-8216200ae5d6" alt="AI Powered Image Wizard" width="1200" height="600">
+<img src="https://github.com/user-attachments/assets/f3ec650e-9990-4df0-ac6e-8216200ae5d6" alt="AI Powered Image Wizard" width="1200" height="400">
 
 
 
