@@ -136,3 +136,10 @@ The **AI-Powered Image Wizard** is an interactive web application built using St
    ```bash
    git clone https://github.com/your-repo/ai-image-wizard.git
    cd ai-image-wizard
+2. Install dependencies:
+ ```bash
+pip install -r requirements.txt
+3. Run the application:
+```bash
+streamlit run ai_image_wizrad.py
+
