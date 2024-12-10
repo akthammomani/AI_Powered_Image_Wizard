@@ -1,14 +1,14 @@
-# AI-Powered Image Wizard
+# AI-Powered Image Wizard: Denoising
 
-## Denoising: 
+## **Introduction:**
 
 The Denoising Stage in our AI-Powered Image Wizard is designed to enhance the quality of noisy images by leveraging state-of-the-art deep learning techniques. This stage is particularly focused on reducing unwanted noise in images, thereby restoring clarity and detail. By employing advanced denoising methods, users can transform grainy, unclear images into sharper and more visually appealing outputs.
 
-### **Dataset**
+## **Dataset**
 
 To fine-tune our model and ensure exceptional performance, we have utilized the **Berkeley Segmentation Dataset 500 (BSDS500)**. This dataset is widely known for its high-quality images and diversity, making it an excellent choice for training and validating denoising models. The dataset provides a robust benchmark for image restoration tasks, ensuring the model's performance is consistent across different noise patterns and image types.
 
-### **Adding Gaussian Noise for Data Augmentation in Image Denoising**
+## **Adding Gaussian Noise for Data Augmentation in Image Denoising**
 
 To simulate real-world scenarios and train a robust image denoising model, it is crucial to expose the model to noisy data during training. In this step, we introduce Gaussian Noise to the clean images from the training and validation datasets. Gaussian noise is a common type of noise characterized by a bell-curve distribution, often encountered in real-world scenarios like low-light photography or transmission errors.
 
@@ -17,7 +17,7 @@ The function add_gaussian_noise generates noisy images by adding randomly sample
 ![denoising_sample](https://github.com/user-attachments/assets/d4fb0aa3-6c3e-4b6f-9cec-13dde9c2adca)
 
 
-### **Leveraging Pre-Trained Models for Enhanced Image Denoising**
+## **Leveraging Pre-Trained Models for Enhanced Image Denoising**
 
 In this stage, we fine-tune a pre-trained Denoising Diffusion Probabilistic Model (DDPM) to enhance its performance on the task of image denoising. We utilize the "google/ddpm-celeba-hq" pre-trained model, a state-of-the-art diffusion-based architecture known for its high fidelity and robustness in image generation and reconstruction tasks. To further optimize the model, we integrate a VGG19-based perceptual loss to focus on preserving fine image details while reducing noise.
 
@@ -56,7 +56,7 @@ The "google/ddpm-celeba-hq" model is specifically designed for high-resolution i
 
 By combining the strengths of DDPMs with perceptual loss from VGG19, this architecture achieves superior results in preserving image details while effectively removing noise, setting a strong foundation for advanced denoising tasks in the AI-powered Image Wizard pipeline.
 
-### Fine-Tuning: 
+## **Fine-Tuning:** 
 
 * Dataset and Model:
 
@@ -85,7 +85,7 @@ By combining the strengths of DDPMs with perceptual loss from VGG19, this archit
   * The relatively low final loss suggests a strong convergence to optimal weights for the denoising task.
 
 
-### **Denoising Evaluation**
+## **Denoising Evaluation**
 
 In the context of image restoration tasks, such as denoising, evaluating the performance of a model is a crucial step to ensure its effectiveness and generalization. Denoising evaluation typically involves two complementary approaches: visual evaluation and metric-based evaluation.
 
@@ -97,7 +97,7 @@ Combining both visual and metric-based evaluations ensures a holistic assessment
 This dual evaluation strategy ensures that the model is both qualitatively pleasing and quantitatively robust.
 
 
-#### **Visual Evaluation**
+### **Visual Evaluation**
 
 * Visual inspection helps to assess the perceptual quality of denoised images, focusing on human perception.
 * The goal is to verify that the model reconstructs clean images without losing critical details or introducing artifacts.
@@ -127,7 +127,7 @@ This dual evaluation strategy ensures that the model is both qualitatively pleas
 
 * Conclusion: The model demonstrates strong capabilities in balancing noise removal and detail preservation, making it effective for a variety of scenarios. However, further refinements may enhance fine-detail recovery and color consistency.
 
-#### **Metric-based Evaluation**
+### **Metric-based Evaluation**
 
 Quantitative metrics provide objective measurements of model performance by comparing denoised images with their corresponding clean references.
 * **Peak Signal-to-Noise Ratio (PSNR):**
