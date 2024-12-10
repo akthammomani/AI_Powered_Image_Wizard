@@ -38,9 +38,9 @@ The datasets used in this project are carefully selected to cover diverse image 
 The project incorporates the following methods:
 
 * **Image Denoising:** Removal of noise while preserving critical details using pretrained models like Denoising Diffusion Probabilistic Models (DDPM).
-* **Image Super-Resolution:** Upscaling low-resolution images with SwinIR and ESRGAN models.
+* **Image Super-Resolution:** Upscaling low-resolution images with EDSR-PyTorch models.
 * **Image Colorization:** Automatically adding colors to grayscale images using colorization transformers and DeOldify.
-* **Image Inpainting:** Filling in missing or damaged parts with LaMa and Stable Diffusion Inpainting models.
+* **Image Inpainting:** Filling in missing or damaged parts with Stable Diffusion Inpainting models.
 
 ## **Technologies**
 
