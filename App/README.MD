@@ -138,7 +138,7 @@ The **AI-Powered Image Wizard** is an interactive web application built using St
    cd ai-image-wizard
 2. Install dependencies:
    ```bash
-   ```bashpip install -r requirements.txt
+   bashpip install -r requirements.txt
 3. Run the application:
    ```bash
    streamlit run ai_image_wizrad.py
