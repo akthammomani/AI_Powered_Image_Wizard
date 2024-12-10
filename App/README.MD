@@ -58,6 +58,37 @@ The **AI-Powered Image Wizard** is an interactive web application built using St
 
 ---
 
+## Attempted Enhancements (Inpainting and Colorization)
+### **1. Inpainting (Stable Diffusion)**
+- **Goal:**
+  - Add a mask-based inpainting feature to allow users to remove unwanted elements or fill missing areas of an image using Stable Diffusion.
+- **Implementation:**
+  - Integrated the `StableDiffusionInpaintPipeline` from Hugging Face Diffusers library.
+  - Enabled users to draw masks using a drawable canvas (`streamlit_drawable_canvas`) and process masked regions using the inpainting model.
+- **Issues Faced:**
+  - **Memory Limitations:** Running inpainting alongside other tasks (denoising and super-resolution) caused excessive memory usage.
+  - **Dependency Conflicts:** The inpainting model required additional dependencies that conflicted with other parts of the pipeline.
+  - **Performance:** Inpainting tasks were slow, even on systems with GPU support, making the app unresponsive during processing.
+
+### **2. Colorization (DeOldify)**
+- **Goal:**
+  - Add colorization functionality using the DeOldify model to transform black-and-white images into realistic color images.
+- **Implementation:**
+  - Integrated the `get_image_colorizer` function from DeOldify and added a user interface to process uploaded grayscale images.
+- **Issues Faced:**
+  - **Dependency Conflicts:** The FastAI framework required for DeOldify conflicted with the Hugging Face Diffusers library used for other tasks.
+  - **Memory Usage:** Loading all models (denoising, super-resolution, and colorization) simultaneously caused the app to exceed available system memory.
+  - **Incompatibility:** PIL-based image preprocessing steps did not align seamlessly with the input requirements of the DeOldify model.
+
+### Conclusion:
+- Both inpainting and colorization tasks were **successfully implemented at a prototype level**.
+- **However**, they were not included in the final app due to:
+  - Excessive memory usage when running all features simultaneously.
+  - Dependency conflicts between models and libraries.
+  - Performance limitations when using consumer-grade GPUs or CPUs.
+
+---
+
 ## User Interface
 
 ### **Input:**
@@ -80,6 +111,7 @@ The **AI-Powered Image Wizard** is an interactive web application built using St
 ### **Frontend**
 - **Streamlit:** Interactive UI with real-time updates and sliders.
 - **Streamlit-Cropper:** Easy cropping of uploaded images.
+- **Streamlit-Drawable-Canvas:** Canvas for freehand drawing (used for inpainting prototype).
 
 ### **Backend**
 - **PyTorch:** Deep learning framework for all models.
@@ -104,4 +136,3 @@ The **AI-Powered Image Wizard** is an interactive web application built using St
    ```bash
    git clone https://github.com/your-repo/ai-image-wizard.git
    cd ai-image-wizard
-
