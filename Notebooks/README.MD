@@ -1,4 +1,4 @@
-# AI-Powered Image Wizard: Denoising
+# **AI-Powered Image Wizard: Denoising**
 
 ## **Introduction:**
 
