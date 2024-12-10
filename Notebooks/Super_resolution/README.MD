@@ -1,6 +1,6 @@
-# AI-Powered Image Wizard
+# **AI-Powered Image Wizard: Super-Resolution**
 
-## Super Resolution
+## **Introduction**
 
 Super-resolution is a fundamental task in computer vision that aims to enhance the resolution of an image, transforming low-resolution (LR) images into high-resolution (HR) ones. This process improves image quality, making finer details visible and enabling better visual experiences. The AI-Powered Image Wizard provides a sophisticated and user-friendly interface for performing super-resolution tasks using state-of-the-art machine learning models.
 
