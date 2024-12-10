@@ -103,7 +103,7 @@ This dual evaluation strategy ensures that the model is both qualitatively pleas
 * The goal is to verify that the model reconstructs clean images without losing critical details or introducing artifacts.
 * Side-by-side comparisons of clean, noisy, and denoised images allow for qualitative evaluation, ensuring that the results align with human expectations.
 
-![noisy_1](https://github.com/user-attachments/assets/d489fc88-20f9-4f0b-92d1-83c9c106815e)
+![denoising_visual](https://github.com/user-attachments/assets/14b9f365-02e4-42f7-a227-565447f9dc34)
 
 
 **Summary Highlights**
@@ -140,6 +140,12 @@ Quantitative metrics provide objective measurements of model performance by comp
 These metrics provide quantitative insights into the fidelity and perceptual accuracy of denoised images.
 
 ![denoising_metric](https://github.com/user-attachments/assets/0200d5ab-e8f7-457d-994e-2674ed611885)
+
+**Summary Highlights:**
+
+* The high average and median values for both PSNR and SSIM suggest reliable denoising while preserving structural integrity.
+* The narrow percentile gaps indicate consistent performance across the dataset.
+* The top percentile metrics highlight the model's potential for achieving excellent results under optimal conditions.
 
 
 
