@@ -11,13 +11,12 @@ import torch.nn.functional as F
 from argparse import Namespace
 
 # Add the EDSR module path
-sys.path.append("./EDSR-PyTorch/src")  # Replace with the actual path to "src"
+sys.path.append("./EDSR-PyTorch/src")  
 from model.edsr import EDSR
 
 icon = Image.open("cv_lgo.jpg")
 st.set_page_config(layout='wide', page_title='AI-Powered Image Wizard', page_icon=icon)
 
-# Function to apply adjustments
 # Function to apply adjustments
 def adjust_image(image, contrast, saturation, rotation, grayscale, brightness, sharpness, color_intensity, apply_denoising=False, apply_super_resolution=False):
     # Apply Denoising
