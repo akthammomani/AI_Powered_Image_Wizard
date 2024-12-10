@@ -1,6 +1,6 @@
-# AI-Powered Image Wizard
+# **AI-Powered Image Wizard: Denoising**
 
-## Denoising: 
+## **Introduciton:** 
 
 The Denoising Stage in our AI-Powered Image Wizard is designed to enhance the quality of noisy images by leveraging state-of-the-art deep learning techniques. This stage is particularly focused on reducing unwanted noise in images, thereby restoring clarity and detail. By employing advanced denoising methods, users can transform grainy, unclear images into sharper and more visually appealing outputs.
 
